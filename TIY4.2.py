@@ -1,16 +1,16 @@
 #TIY4.2
-'''
+
 #4-3 Count to 20
 numbers = list(range(1,21))
 print(numbers)
-
+'''
 #4-4 - one million
 millions= list(range(1,1000001))
 
 for number in millions:
     print(number)
   
-
+'''
 #4-5 sumillion
 print(min(millions))
 print(max(millions))
@@ -35,5 +35,6 @@ for number in base:
 print(powers)
 '''
 #4-9 cube comprehension
-powers = [value**3 for value in range(3,31,3)]
+powers = [value**3 for value in range(1,11)]
 print(powers)
+'''

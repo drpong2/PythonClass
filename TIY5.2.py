@@ -59,20 +59,30 @@ possibleages = range(1,70)
 agelist=[]
 for number in range(1,11):
     agelist.append(random.choice(possibleages))
+agelist.append(2)
+agelist.append(4)
+agelist.append(13)
+agelist.append(20)
+agelist.append(-2)
+agelist.append("Steve")
 for age in agelist:
-    if age < 2:
+    if age <= 2:
         print("just a baby")
-    elif 2 < age < 4:
+    elif 2 < age <= 4:
         print(f"Learning to walk, moving around ({age})")
-    elif 4 < age < 13:
+    elif 4 < age <= 13:
         print(f"You think you know everything, but you're just a kid({age})")
-    elif 13 < age < 20:
+    elif 13 < age <= 20:
         print(f"annoying ({age})")
-    elif 20 < age < 65:
+    elif 20 < age <= 65:
         print(f"Enjoy your taxes, loser ({age})")
-    else:
+    elif age > 65:
         print(f"Just like being a kid again, only hopefully this time with a house ({age})")
-
+    elif age < 0:
+        print("Please enter a positive number")
+    else:
+        print("Please enter a number")
+        
 
 #5-7 favorite fruit
 #make a list of 3 favorite fruits then write a series of independent if statements that check for certain fruits in your list

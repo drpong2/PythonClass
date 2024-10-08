@@ -14,14 +14,14 @@ Slicing a list - Before or after the colon, number determines where to start/how
 '''
  
 
-'''
+
 #p.105
 #4-1 - Pizzas
 pizzas=["sausage","pepperoni","meatlovers"]
 for pizza in pizzas:
   print(f"I love {pizza}")
 print("I love any kind of pizza, really")
-'''
+
 #4-2 - animals
 animals=["Dog","cat","elephant"]
 answer=["would","would","would not"]
@@ -34,7 +34,7 @@ for animal in animals:
   print(answerindex)
   
 print(f"you should definitely not own a {animals[-1]}")
-demonstrationlist = animals[-2:]
+demonstrationlist = animals[:]
 animals.append("gecko")
 answer.append("would")
 answerindex=0
