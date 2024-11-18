@@ -1,6 +1,6 @@
 import random
 '''
-TIY9.1
+#TIY9.1
 
 Classes
 Remember stringname.lower()? That's a *method* of the variable, which is of type string.
@@ -35,6 +35,10 @@ class Restaurant:
 my_restaurant = Restaurant("McDonalds","Fast Food")
 
 my_restaurant.describe_restaurant()
+string = "This is a test string"
+print(string)
+print(type(string))
+print(type(my_restaurant))
 
 my_restaurant.open_restaurant()
 
