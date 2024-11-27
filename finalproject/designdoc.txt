@@ -1,0 +1,66 @@
+1. start program
+2. create account
+    2a. validate user (not in use)
+    2b. validate password
+    2c. store account info (file write)
+3. login
+    3a. collect user
+    3b. confirm user (file read)
+    3c. confirm password (file read)
+4. menu
+    a. get roles
+    b. list apps
+    c. menu navigation
+
+1. login
+    1. collect user
+    2. confirm user (file read)
+    3. confirm password (file read)
+
+2. new user
+    1. Validate user (file read
+    2. validate password (done)
+    3. store account info
+
+A. Get roles
+B. list apps
+C. log out
+
+
+A. Get Roles
+    1. user
+    2. admin
+    3. moderator
+    4. List permissions
+    5. return
+
+B. LIst Apps
+    1. Mail
+    2. browser
+    3. games
+    4. programming language
+    5. return
+
+B1. Mail apps
+    thunderbird
+    safari mail
+    outlook
+    return
+
+B2. Browser
+    Chrome
+    Edge
+    Safari
+    Vivaldi
+    Opera GX
+    return
+
+B3. Programming language
+    Python
+    Java
+    C++
+    VB
+    Javascript
+    return
+
+

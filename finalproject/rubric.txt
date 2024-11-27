@@ -1,0 +1,20 @@
+rubric
+
+Grading isn't finalized, but the things I'll be looking for:
+Does the program run
+does it load the auth module (if you're confused by this, skip it or submit two programs)
+Can you run the control loop for apps
+can you run the control loop for user perms
+does the menu return correctly
+does the program end correctly
+
+Things I expect to see in your code
+	functions
+	while loops
+	if loops
+	lists
+	module imports
+	
+This is to give you an idea of what I'm looking for.
+
+You can zip all your files up and submit them, or submit all the code (clearly commented) inside of a text file.
